@@ -1,3 +1,4 @@
 2025-07-09T10:50:59.472922500 | City: London | Temp: 13.0 °C | Condition: Sunny
 2025-07-09T10:51:43.458667600 | City: London | Temp: 13.0 °C | Condition: Sunny
 2025-07-09T11:26:13.693018500 | City: tirunelveli | Temp: 34.7 °C | Condition: Sunny
+2025-07-09T12:46:08.208491500 | City: chennai | Temp: 36.2 °C | Condition: Partly cloudy

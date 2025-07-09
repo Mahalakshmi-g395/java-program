@@ -16,7 +16,7 @@ public class WeatherApiLogger {
     private static final String API_KEY = "954b386c14df4e2cbdb43746250907";
     private static final String BASE_URL =
             "https://api.weatherapi.com/v1/current.json?key=%s&q=%s&aqi=no";
-    private static final String LOG_FILE = "C:\\Users\\Dell\\java-program\\demo\\src\\main\\java\\com\\example\\demo\\weather_log.txt";
+    private static final String LOG_FILE = "C:\\Users\\Dell\\java-program\\demo\\src\\main\\resources\\weather_log.txt";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
