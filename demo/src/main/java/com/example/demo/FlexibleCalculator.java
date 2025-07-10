@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class FlexibleCalculator {
     public static Number parseNumber(String input) throws NumberFormatException{
+        if(input==null || input.trim().isEmpty()){
+            throw new NumberFormatException("Input is empty or null");
+        }
         input=input.trim();
         if(input.contains(".")) {
             return Double.parseDouble(input);
@@ -37,10 +40,10 @@ public class FlexibleCalculator {
                 case "-":
                     result=val1-val2;
                     break;
-                case"*":
+                case "*":
                     result=val1*val2;
                     break;
-                case"/":
+                case "/":
                     if(val2==0){
                         System.out.println("Error: zero cannot be divided by any num");
                         return;
