@@ -1,4 +1,4 @@
-package app;
+package com.example.demo;
 
 import service.LibraryService;
 import util.InputUtil;

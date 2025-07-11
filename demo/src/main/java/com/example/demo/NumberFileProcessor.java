@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class NumberFileProcessor{
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\Dell\\java-program\\demo\\src\\main\\resources\\Num.txt"; // Change this to your actual file path if needed
+        String fileName = "C:\\Users\\Dell\\java-program\\demo\\src\\main\\resources\\Num.txt6 "; // Change this to your actual file path if needed
         double sum = 0;
         int count = 0;
 
