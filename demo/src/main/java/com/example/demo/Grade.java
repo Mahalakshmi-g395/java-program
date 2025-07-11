@@ -9,7 +9,7 @@ public class Grade {
         int score=s1.nextInt();
 
         if(score<0 || score>100){
-            System.out.println("Invalid Score:Please enter the correct score");
+            System.out.println("Invalid Score Please enter the correct score");
             return;
         }
         char grade;

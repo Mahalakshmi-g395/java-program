@@ -39,7 +39,7 @@ public class LibraryApp {
             }
         }
 
-        System.out.println("Exiting Library System. Goodbye!");
+        System.out.println("Exiting Library System Goodbye!");
     }
 }
 
